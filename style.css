@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/university4.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/metaspace website image.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -96,8 +96,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #4936f4;
+    background: #4936f4;
     transition: 3s;
 }
 
@@ -114,7 +114,7 @@ nav .fas{
     }
     .nav-links{
         position: fixed;
-        background: #f44336;
+        background: #4936f4;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -163,7 +163,7 @@ p{
 }
 .course-col{
    flex-basis: 31%;
-   background: #fff3f3; 
+   background: #023db3; 
    border-radius: 10px;
    margin-bottom: 5%;
    padding: 20px 12px;
@@ -272,7 +272,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: #023db3;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -291,10 +291,10 @@ h3{
     text-align: left;
 }
 .testimonial-col .fas{
-    color: #f44336;
+    color: #5c8ff7;
 }
 .testimonial-col .far{
-    color: #f44336; 
+    color: #5c8ff7; 
 }
 @media(max-width:700px){
     .testimonial-col img{
@@ -340,7 +340,7 @@ h3{
     font-weight: 600;
 }
 .icons .fab{
-    color: #f44336;
+    color: #104bc2;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
