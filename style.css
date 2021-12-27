@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/metaspace website image.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/university4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,7 +18,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
-    background: url(img/logoimage.jpg); no-repeat 0 0;
+    background: url(img/logoimage.jpg);
 }
 .logo{
     color: #fff;
@@ -156,7 +156,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.course-col{
+.services-col{
    flex-basis: 31%;
    background: #8cb8de; 
    border-radius: 10px;
@@ -170,7 +170,7 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.course-col:hover{
+.services-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 @media(max-width:700px){
