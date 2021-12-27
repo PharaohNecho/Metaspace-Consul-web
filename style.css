@@ -14,10 +14,11 @@
 }
 .logo-image{
     width: 46px;
-    height: 46px;url(img/logoimage.jpg);
+    height: 46px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
+    background: url(img/logoimage.jpg); no-repeat 0 0;
 }
 .logo{
     color: #fff;
