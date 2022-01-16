@@ -370,8 +370,6 @@ h3{
 .red-btn:hover{
     color: #fff;
 }
-.nospace{margin:0; padding:0; list-style:none;}
-}
 /*----- blog-content ------*/
 .blog-content{
     width: 80%;
