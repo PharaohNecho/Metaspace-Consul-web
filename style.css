@@ -99,14 +99,15 @@ nav img{
     border: 1px solid #FFFFFF;
     background: #4936f4;
     transition: 3s;
-	}
-
+}
+@media only screen and (max-width: 768px)
+{
+}
 .search {
   width: 100%;
   position: relative;
   display: flex;
 }
-
 .searchTerm {
   width: 100%;
   border: 3px solid #4936f4;
@@ -117,11 +118,9 @@ nav img{
   outline: none;
   color: #9DBFAF;
 }
-
 .searchTerm:focus{
   color: #00B4CC;
 }
-
 .searchButton {
   width:50px;
   height: 36px;
@@ -133,15 +132,13 @@ nav img{
   cursor: pointer;
   font-size: 20px;
 }
-
-/*Resize the wrap to see the search bar change!*/
 .wrap{
   width: 30%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+{
 }
 nav .fas{
     display: none;
