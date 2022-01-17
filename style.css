@@ -105,7 +105,7 @@ nav img{
   position: relative;
   display: flex;
 }
-.searchTerm{
+.searchTerms{
   width: 100%;
   border: 3px solid #4936f4;
   border-right: none;
