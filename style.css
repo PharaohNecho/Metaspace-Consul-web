@@ -12,8 +12,8 @@
     position: relative;
 }
 .logo-image{ 
-    width: 15px;
-    height: 7px;
+    width: 10px;
+    height: 5px;
     border-radius: -50%;
     overflow: hidden;
     margin-top: -6px;
@@ -21,7 +21,7 @@
 }
 .logo{
     color: #fff;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 2rem;
     text-decoration: none;
 }
