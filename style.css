@@ -167,7 +167,8 @@ nav .fas{
 }
 .nav-links ul{
 padding: 30px;
-a {
+}
+.a {
 text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
