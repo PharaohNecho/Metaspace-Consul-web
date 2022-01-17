@@ -102,10 +102,10 @@ nav img{
 }
 .search{
   width: 100%;
-  position: relative;
+  position: centre;
   display: flex;
 }
-.searchTerms{
+.searchTerm{
   width: 100%;
   border: 3px solid #4936f4;
   border-right: none;
@@ -119,7 +119,7 @@ nav img{
   color: #00B4CC;
 }
 .searchButton{
-  width:50px;
+  width:700px;
   height: 36px;
   border: 1px solid #4936f4;
   background: #4936f4;
