@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/university4.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/homepage.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -285,6 +285,13 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}	
+.facilities-col2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+	color: #f44336;
 }
 /*--------  testimonials  --------*/
 .testimonials{
@@ -350,13 +357,11 @@ h3{
     }
 }
 /*-------- footer  ----------*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
-  font-family: Open Sans;
+  font-family: 'Nunito', sans-serif
 }
-
-section {
+footer-section {
   width: 100%;
   display: inline-block;
   background: #333;
@@ -364,7 +369,7 @@ section {
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-distributed{
@@ -393,13 +398,13 @@ section {
 /* The company logo */
 
 .footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	color:  #fff;
+	font: normal 36px 'Nunito', cursive;
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  #4936f4;
 }
 
 /* Footer links */
@@ -419,8 +424,8 @@ section {
 }
 
 .footer-distributed .footer-company-name{
-	color:  #222;
-	font-size: 14px;
+	color:  #fff;
+	font-size: 15px;
 	font-weight: normal;
 	margin: 0;
 }
@@ -465,7 +470,7 @@ section {
 }
 
 .footer-distributed .footer-center p a{
-	color:  lightseagreen;
+	color:  #fff;
 	text-decoration: none;;
 }
 
@@ -514,7 +519,7 @@ section {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	background-color:  #4936f4;
 	border-radius: 2px;
 
 	font-size: 20px;
